@@ -1,4 +1,4 @@
-package com.example.server.controller;
+package com.example.server.Controller;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -6,11 +6,11 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:5173")
-public class helloController {
-
-    @RequestMapping("/")
-    public String greak(){
-        return "Padala Manikanta Prasad";
-    }
-
+public class UserController {
+	
+	@RequestMapping("/")
+	public String great() {
+		return "Padala Manikanta Prasad";
+	}
+	
 }
