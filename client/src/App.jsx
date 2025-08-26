@@ -4,7 +4,7 @@ const App = () => {
   const [message,setmessage] = useState();
 
   useEffect(()=>{
-    fetch('http://localhost:8080').then(response=>response.text())
+    fetch('http://localhost:8080' || 'https://javafull-production.up.railway.app').then(response=>response.text())
     .then(data=>setmessage(data))
   },[])
 
