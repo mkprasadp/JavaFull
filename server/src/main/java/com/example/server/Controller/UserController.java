@@ -11,4 +11,9 @@ public class UserController {
     public String greet() {
         return "Hello from Java Backend";
     }
+
+    @GetMapping("/mess")
+    public String message(){
+        return "This is a message from the backend";
+    }
 }
