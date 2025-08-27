@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div style={{ textAlign: 'center', marginTop: '50px', color: 'red' }}>
-      <h1>{message || 'Loading...'}</h1>
+      <h1>{message || 'Hello from Java Backend...'}</h1>
     </div>
   )
 }
