@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.*;
  
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:5173", "https://java-full.vercel.app"})
+@CrossOrigin(origins = {"https://69021182b7b9b4866f759c76--javafull.netlify.app/"})
 public class UserController {
 	
     @GetMapping("/")
